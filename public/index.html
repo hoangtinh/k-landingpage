@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+    <title>Kevin Landing Page</title>
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Notes">
+    <link rel="icon"
+          sizes="192x192"
+          href="bower_components/note-app/common/images/icon-4x.png">
+
+    <style>
+      body {
+        margin: 0;
+        font-family: sans-serif;
+        background-color: #fff;
+      }
+    </style>
+    
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="x-app.html">
+
+  </head>
+  <body unresolved>
+    
+    <firebase-app
+      name="k-landingpage"
+      apiKey="AIzaSyB1pi28hQLo3anVC6k8g2AMq1YUcgRArNY"
+      authDomain="k-landingpage.firebaseapp.com"
+      databaseURL="https://k-landingpage.firebaseio.com">
+    </firebase-app>
+
+    <x-app></x-app>
+
+  </body>
+</html>
